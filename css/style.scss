@@ -170,30 +170,28 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     margin-top: 1rem;
 }
     .subheader-menu {
-        padding: 0;
-        
+        margin: 0;              
     }
     .subheader-menu li {
         display: inline-block;
         text-decoration: none;
         text-align: center; 
-        margin: 0 1rem 0 1rem; 
         border: 1px solid transparent;
         -webkit-border-radius: 1;
         -moz-border-radius: 1;
-        border-radius: 1;     
+        border-radius: 1; 
     }
     
     .subheader-menu a {
         text-decoration: none;
         text-align: center;
-        color: white;         
+        color: white; 
+        padding: 1rem 0.5rem 1rem 0.5rem;                
     }
     .subheader-menu_hover:hover
     {
         background-color: $verde-oscuro;
-        color: white;
-        padding: 1rem 0 1rem 0;
+        color: white;        
         border-radius: 1rem;        
     }
 .btn-orange {
@@ -205,11 +203,10 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     color:#ffffff;   
 }
     .btn-orange_up {
-        top: -0;
-        right: 0;
+        margin-top: 0;
     }
 .btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
-    background-color: #d35400;
+    background-color: $naranja_oscuro;
     color:#ffffff;
 }
 
@@ -271,7 +268,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-header-orange {
-    background-color:#ff7600;
+    background-color:$naranja;
     min-width: 298px;
     height: 67px;
     color: #fff; 
@@ -381,7 +378,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .project-overlay {
     background : rgba(0,0,0,.75);
-    border : 2px solid #ff7600;
+    border : 2px solid $naranja;
     visibility: hidden;
     position: absolute;
     text-align:center;
@@ -565,7 +562,7 @@ a:hover .social-icon-dribbble {
 }
 
 ul.templatemo-project-gallery  li  a img:hover {
-    border: 3px solid #ff7600;
+    border: 3px solid $naranja;
 }
 
 .templatemo-gallery-category a {
