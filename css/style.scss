@@ -9,8 +9,6 @@ Autor: Ideas Soluciones Empresariales
 $verde: #529097;
 $verde-medio: #589ba3;
 $verde-oscuro:#285459;
-$naranja: #ff7600;
-$naranja_oscuro: #d35400;
 
 body, html { overflow-x:hidden; }
 
@@ -48,18 +46,18 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     background-color: $verde-medio;
 }
 
-.belive-top-menu {
+.templatemo-top-menu {
     min-height:110px;
     background-color:#ffffff;
     z-index: 5000;
     width:100%;
 }
 
-.belive-top-menu .navbar-toggle {
+.templatemo-top-menu .navbar-toggle {
     margin-top: 38px;
 }
 
-.belive-top-menu .navbar-brand {
+.templatemo-top-menu .navbar-brand {
     padding: 0;
     margin: 30px 0 0 0;
 }
@@ -177,8 +175,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
         display: inline-block;
         text-decoration: none;
         text-align: center; 
-        margin: 0 1rem 0 1rem; 
-        border: 1px solid transparent;      
+        margin: 0 1.5rem 0 1.5rem;       
     }
     
     .subheader-menu a {
@@ -190,25 +187,19 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     {
         background-color: $verde-oscuro;
         color: white;
-        padding: 1rem 0 1rem 0;
-        border-radius: 1rem;        
+        padding: 1rem 0 1rem 0;         
     }
 .btn-orange {
-    background-color: $naranja;
-    border-bottom:2px solid $naranja_oscuro;
-    -webkit-border-radius: 1;
-    -moz-border-radius: 1;
-    border-radius: 1;
-    color:#ffffff;   
+    background-color: #ff7600;
+    border-bottom:2px solid #d35400;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    color:#ffffff;
 }
-    .btn-orange_up {
-        position: absolute; 
-        top: -0.3em; 
-        right: 0;
-    }
 
 .btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .open .dropdown-toggle.btn-orange {
-    background-color: $naranja_oscuro;
+    background-color: #d35400;
     color:#ffffff;
 }
 
@@ -270,7 +261,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-header-orange {
-    background-color: $naranja;
+    background-color:#ff7600;
     min-width: 298px;
     height: 67px;
     color: #fff; 
@@ -297,7 +288,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-team {
-    background: url('../images/background.png') ; 
+    background-color: #76cad3;
     font-family:  'Open Sans', sans-serif;
     min-height:590px;
     color:#ffffff;
@@ -320,7 +311,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .member-thumb .thumb-overlay {
-    background-color: rgba(220, 157, 102, 0.8);
+    background-color: rgba(206, 250, 255, 0.3);
     position: absolute;
     visibility: hidden;
     padding-top: 35%;
@@ -380,7 +371,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .project-overlay {
     background : rgba(0,0,0,.75);
-    border : 2px solid $naranja;
+    border : 2px solid #ff7600;
     visibility: hidden;
     position: absolute;
     text-align:center;
@@ -564,7 +555,7 @@ a:hover .social-icon-dribbble {
 }
 
 ul.templatemo-project-gallery  li  a img:hover {
-    border: 3px solid $naranja;
+    border: 3px solid #ff7600;
 }
 
 .templatemo-gallery-category a {
